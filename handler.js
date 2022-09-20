@@ -41,7 +41,8 @@ module.exports = {
         global.colong1 = 'Ciss 📸'
         global.colong2 = 'Society-MD'
         global.kontak2 = [
-        ['16199961931', 'Beliau pt.2', 'Creator Bot', 'varrelkun@gmail.com', true]
+        ['6285954184111', 'Beliau pt.2', 'Creator Bot', 'varrelkun@gmail.com', true],
+        ['6282179137771', 'CUTE IQ-MD', 'Bot WhatsApp', 'Just Bot', true]
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
