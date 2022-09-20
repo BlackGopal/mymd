@@ -239,7 +239,7 @@ let levelling = require('../lib/levelling')
    "product": { 
    "productImage":{ 
    "mimetype": "image/jpeg", 
-   "jpegThumbnail": await (await fetch('https://telegra.ph/file/8f729fca4c6096d469664.jpg')).buffer(), //Gambarnye
+   "jpegThumbnail": await (await fetch('https://telegra.ph/file/e597ea1aaac7c5c85baa4.jpg')).buffer(), //Gambarnye
      }, 
    "title": `${ucapan()}`, 
    "description": '𝗧 𝗜 𝗠 𝗘 : ' + wktuwib, 
@@ -264,7 +264,7 @@ let levelling = require('../lib/levelling')
     surface : 1,
     message: '[❗] Memuat Menu ' + teks + '...',
     orderTitle: `▮Menu ▸`,
-    thumbnail: await (await fetch('https://telegra.ph/file/e6c498c568fd8d35f9395.jpg')).buffer(), //Gambarnye
+    thumbnail: await (await fetch('https://telegra.ph/file/e597ea1aaac7c5c85baa4.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
     }
     }
@@ -279,9 +279,9 @@ let levelling = require('../lib/levelling')
     itemCount : 2022,
     status: 1,
     surface : 1,
-    message: `CUTE IQ-MD By Ziv San`, 
+    message: `Society-MD`, 
     orderTitle: `▮Menu ▸`,
-    thumbnail: await (await fetch('https://telegra.ph/file/db5b4aed0d6d2e6c10c8f.jpg')).buffer(), //Gambarnye
+    thumbnail: await (await fetch('https://telegra.ph/file/e597ea1aaac7c5c85baa4.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
     }
     }
@@ -314,10 +314,10 @@ let levelling = require('../lib/levelling')
        } 
      }) 
      if (teks == '404') {
- 	let cute = `${pickRandom(['https://telegra.ph/file/dc8b3a29b4b2c770d1727.jpg', 'https://telegra.ph/file/dc8b3a29b4b2c770d1727.jpg', 'https://telegra.ph/file/1767c5d6b71e200231ca6.jpg', 'https://telegra.ph/file/13488976473884608c03c.jpg','https://telegra.ph/file/21329b42e497787e3c2c2.jpg','https://telegra.ph/file/6999d6a56326852484746.jpg', 'https://telegra.ph/file/5df66151d217bb5cd1627.jpg', 'https://telegra.ph/file/c71a6b41795ab649daef7.jpg', 'https://telegra.ph/file/c9a695262426ed4e8b3b8.jpg'])}` 
+ 	let cute = `${pickRandom(['https://telegra.ph/file/e597ea1aaac7c5c85baa4.jpg', 'https://telegra.ph/file/56ffcdb871ca4a1102fa1.jpg', 'https://telegra.ph/file/e597ea1aaac7c5c85baa4.jpg', 'https://telegra.ph/file/56ffcdb871ca4a1102fa1.jpg', 'https://telegra.ph/file/e597ea1aaac7c5c85baa4.jpg', 'https://telegra.ph/file/56ffcdb871ca4a1102fa1.jpg', 'https://telegra.ph/file/e597ea1aaac7c5c85baa4.jpg'])}` 
  	let ori = `Hi Kak, @${m.sender.split`@`[0]}
  
-Saya Adalah Cute Bot Salah Satu Bot Whatsapp Yang Siap Membantu Kamu Mempermudah Sesuatu Seperti Membuat Sticker Dan Lainnya, Kalo Kamu Mau Request Fitur Silahkan Ketik #request Pesan Atau Fitur Yang Kamu Inginkan!`
+Society-MD Adalah Salah Satu Bot Whatsapp Yang Siap Membantu Kamu Mempermudah Sesuatu Seperti Membuat Sticker Dan Lainnya, Kalo Kamu Mau Request Fitur Silahkan Ketik #request Pesan Atau Fitur Yang Kamu Inginkan!`
 conn.sendMessage(m.chat, {
     	react: {
     		text: emot,
@@ -377,11 +377,11 @@ return conn.send2ButtonLoc(m.chat, cute, ori, `Note : If You Use Old Wa Or Mod A
      text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name]) 
      //await conn.reply(m.chat, '*L o a d i n g . . .*', fload) 
  
-   /*await conn.send2ButtonImg(m.chat, await (await fetch('https://api.xteam.xyz/textpro/glitch?text=' + teks + '&text2=CUTE%20IQ-MD%20BY%20ZIV%20SAN&APIKEY=bf8ff984af1506b7')).buffer(), text.trim(), hao, 'Donasi', '.donasi', 'Rules', '.rules', m, { 
+   /*await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/56ffcdb871ca4a1102fa1.jpg')).buffer(), text.trim(), hao, 'Donasi', '.donasi', 'Rules', '.rules', m, { 
      quoted: ftoko, 
      contextInfo: { forwardingScore: 99999, isForwarded: true, 
          externalAdReply: { 
-             title: 'Cute IQ-MD Testing Project By Ziv San', 
+             title: 'Society-MD', 
              body: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, 
              description: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, 
              mediaType: 2, 
@@ -396,7 +396,7 @@ await conn.send3ButtonLoc(m.chat, await (await fetch(`${dimas()}`)).buffer(), '�
      quoted: ftoko, 
      contextInfo: { forwardingScore: 99999, isForwarded: true, 
          externalAdReply: { 
-             title: 'Cute IQ-MD Testing Project By Ziv San', 
+             title: 'Society-MD', 
              body: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, 
              description: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, 
              mediaType: 2, 
@@ -442,35 +442,18 @@ await conn.send3ButtonLoc(m.chat, await (await fetch(`${dimas()}`)).buffer(), '�
    const lgs = moment.tz('Asia/Jakarta').format('HH') 
    res = "Selamat dinihari" 
    if (lgs >= 4) { 
-     imp = 'https://telegra.ph/file/abff7903bd674a8f9d307.jpg' 
+     imp = 'https://telegra.ph/file/e597ea1aaac7c5c85baa4.jpg' 
    } 
    if (lgs > 10) { 
-     imp = 'https://telegra.ph/file/ba940019735e224132f74.jpg' 
+     imp = 'https://telegra.ph/file/56ffcdb871ca4a1102fa1.jpg' 
    } 
    if (lgs >= 15) { 
-     imp = 'https://telegra.ph/file/a332bbac803e3c631bb07.jpg' 
+     imp = 'https://telegra.ph/file/e597ea1aaac7c5c85baa4.jpg' 
    } 
    if (lgs >= 18) { 
-     imp = 'https://telegra.ph/file/a5c91ab6c58c7be066654.jpg' 
+     imp = 'https://telegra.ph/file/56ffcdb871ca4a1102fa1.jpg' 
    } 
    return imp 
- } 
- function dimas() { 
-   const varel = moment.tz('Asia/Jakarta').format('HH') 
-   res = "Selamat dinihari" 
-   if (varel >= 4) { 
-     dimrel = 'https://telegra.ph/file/8ed7c08f3c53efb3250e8.jpg' 
-   } 
-   if (varel > 10) { 
-     dimrel = 'https://telegra.ph/file/6e44f7a0ca634419fd6fe.jpg' 
-   } 
-   if (varel >= 15) { 
-     dimrel = 'https://telegra.ph/file/5d0efe9615a43d069d9fb.jpg' 
-   } 
-   if (varel >= 18) { 
-     dimrel = 'https://telegra.ph/file/b823c87f29294bf3bb9eb.jpg' 
-   } 
-   return dimrel 
  } 
  function ucapan() { 
    const time = moment.tz('Asia/Jakarta').format('HH') 
